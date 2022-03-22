@@ -1,0 +1,38 @@
+.product{
+    border-radius: .3rem;
+    overflow: hidden;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.151);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.product:hover{
+    box-shadow: 0 .125rem .45rem rgba(0, 0, 0, 0.445)
+}
+
+.product-details{
+    padding: 0 .5rem;
+}
+
+.product-image{
+    margin-bottom: .5rem;
+    padding: .3rem;
+    
+}
+
+.product-image img{
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.custom-btn{
+    width: 100%;
+    background: #FFE0B3;
+    border: none;
+    padding: .5rem 1rem;
+    transition: .3s;
+}
+
+.custom-btn:hover{
+    background: #FF9900;
+}
