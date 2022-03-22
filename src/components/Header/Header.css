@@ -1,0 +1,10 @@
+.header-nav{
+    background: #1C2B35;
+}
+.nav-item-link{
+    color: #fff !important;
+}
+
+.nav-item-link:hover{
+    color: #FF9900 !important;
+}
