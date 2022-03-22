@@ -17,10 +17,10 @@ const Header = () => {
                         <a href="./order" className="nav-link nav-item-link">Order</a>
                     </li>
                     <li className="nav-item">
-                        <a href="./order" className="nav-link nav-item-link">Order Review</a>
+                        <a href="./order-review" className="nav-link nav-item-link">Order Review</a>
                     </li>
                     <li className="nav-item">
-                        <a href="./order" className="nav-link nav-item-link">Manage Inventory</a>
+                        <a href="./manage-inventory" className="nav-link nav-item-link">Manage Inventory</a>
                     </li>
                     
                 </Nav>
