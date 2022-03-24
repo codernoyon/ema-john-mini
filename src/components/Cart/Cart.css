@@ -1,4 +1,9 @@
+.cart{
+    position: sticky;
+    top: 80px;
+}
 
-.cart-container{
-    position: fixed;
+.cart-details p{
+    font-size: 18px;
+    margin-bottom: .3rem;
 }
