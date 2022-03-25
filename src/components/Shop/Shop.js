@@ -64,7 +64,7 @@ const Shop = () => {
                             }
                         </div>
                     </div>
-                    <div className="col-lg-3 pt-2 cart-container">
+                    <div className="col-lg-3 pt-2 cart-container order-md-first order-lg-last">
                         <Cart cart={cart}></Cart>
                     </div>
                 </div>
