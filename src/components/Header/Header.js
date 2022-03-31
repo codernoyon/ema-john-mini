@@ -6,7 +6,7 @@ import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
     return (
-        <Navbar className="header-nav" variant='dark' expand="lg" fixed="top">
+        <Navbar className="header-nav d-block" variant='dark' expand="lg" fixed="top">
             <Container>
                 <Navbar.Brand >
                     <img src={logo} alt="" />

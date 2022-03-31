@@ -1,0 +1,31 @@
+.order-section{
+    margin-top: 4.5rem;
+}
+
+.order-section .row{
+    height: 80vh;
+}
+
+.order-products{
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+.review-cart-container{
+    height: 70vh;
+    border-radius: .3rem;
+    background: rgba(255, 153, 0, 0.3);
+}
+
+.order-products::-webkit-scrollbar{
+    width: 10px;
+}
+
+.order-products::-webkit-scrollbar-track{
+    background: #ffffff
+}
+
+.order-products::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, orange , lightsalmon);
+    border-radius: 25px;
+}

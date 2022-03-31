@@ -51,7 +51,7 @@ const Shop = () => {
     return (
         <div className="shop">
             <div className="container">
-                <div className="row">
+                <div className="row px-3 px-md-0">
                     <div className="col-lg-9">
                         <div className="proudct-container row py-5 g-3">
                             {
@@ -64,7 +64,7 @@ const Shop = () => {
                             }
                         </div>
                     </div>
-                    <div className="col-lg-3 pt-2 cart-container order-first order-lg-last mt-5">
+                    <div className="col-lg-3 pt-2 cart-container order-first order-lg-last mt-5 rounded-1">
                         <Cart cart={cart}></Cart>
                     </div>
                 </div>
