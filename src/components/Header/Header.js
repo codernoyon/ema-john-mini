@@ -2,7 +2,6 @@ import "./Header.css";
 import React from 'react';
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../../images/Logo.svg"
-import { Link } from "react-router-dom";
 import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
