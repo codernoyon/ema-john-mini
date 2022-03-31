@@ -2,7 +2,9 @@
     background: #1C2B35;
 }
 .nav-item-link{
-    color: #fff !important;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .nav-item-link:hover{
