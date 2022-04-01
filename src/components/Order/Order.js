@@ -6,8 +6,8 @@ import useProducts from '../../hooks/useProducts';
 import useCart from '../../hooks/useCart';
 
 const Order = () => {
-    const [products, setProducts] = useProducts();
-    const [cart, setCart] = useCart(products);
+    const [products, ] = useProducts();
+    const [cart, ] = useCart(products);
     return (
         <section className="order-section py-3">
             <div className="container">
