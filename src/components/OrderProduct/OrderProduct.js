@@ -14,7 +14,7 @@ const OrderProduct = ({ product }) => {
             </div>
             <div className="order-product-details align-items-center d-flex ps-2 pe-3 justify-content-between w-100 ">
                 <div className="info">
-                    <h6>{name.lenght > 20 ? name.slice(0, 20) + "..." : name}</h6>
+                    <h6>{name.length > 15 ? name.slice(0, 15)+ "..." : name}</h6>
                     <p className='mb-0'>Price: $<span className='highlight'>{price}</span></p>
                     <p className='mb-0'>Quantity <span className='highlight'>{quantity}</span></p>
                     <small className='mb-0'>Shipping Charge: $<span className='highlight'>{shipping}</span></small>
