@@ -4,8 +4,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./Cart.css"
 
-const Cart = (props) => {
-    const { cart } = props; 
+const Cart = ({cart, handleClearCart}) => {
+
 
     let quantity = 0;
     let total = 0;
@@ -37,7 +37,7 @@ const Cart = (props) => {
                 <p>Tax: ${tax}</p>
                 <h5>Grand Total: ${grandTotal.toFixed(2)}</h5>
             </div>
-            <button className='clear-cart-btn d-block w-100 mb-3'>
+            <button onClick={handleClearCart} className='clear-cart-btn d-block w-100 mb-3'>
                 Clear Cart <FontAwesomeIcon icon={faTrashAlt}></FontAwesomeIcon>
             </button>
             <button onClick={goReview} className='review-order-btn d-block w-100'>
