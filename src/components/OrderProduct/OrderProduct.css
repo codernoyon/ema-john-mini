@@ -14,6 +14,7 @@
     transition: .3s;
     margin-bottom: .6rem;
     align-items: stretch;
+    cursor: pointer;
     
 }
 
@@ -24,11 +25,11 @@
 
 .delete-btn{
     background: rgba(235, 87, 87, 0.3);
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border: none;
     color: #EB5757;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     border-radius: 50%;
 }
 
