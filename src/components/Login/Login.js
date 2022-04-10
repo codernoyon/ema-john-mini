@@ -10,7 +10,7 @@ const Login = () => {
     return (
         <section className='signup-section'>
             <div className="container">
-                <div className='row justify-content-center align-items-center vh-100 px-5 px-md-0'>
+                <div className='row justify-content-center align-items-center vh-100 px-3 px-md-0'>
                     <div className='inner-form col-md-6 col-lg-4'>
                         <h3 className='text-center'>Login</h3>
                         <div className="input-group">
