@@ -17,6 +17,7 @@ const Header = () => {
                     <CustomLink className="nav-item-link" to='/shop'>Shop</CustomLink>
                     <CustomLink className="nav-item-link ms-lg-3" to='/order'>Order Review</CustomLink>
                     <CustomLink className="nav-item-link ms-lg-3" to='/inventory'>Manage Inventory</CustomLink>
+                    <CustomLink className="nav-item-link ms-lg-3" to='/login'>Login</CustomLink>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

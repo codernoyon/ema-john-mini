@@ -1,0 +1,72 @@
+.inner-form{
+    background: #FFFFFF;
+    padding: 2rem;
+    border: 1px solid #95A0A7;
+    border-radius: .3rem;
+    box-shadow: -9px 9px 3px #ffe0b3;;
+
+}
+
+.input-group{
+    margin-top: .5rem;
+}
+
+.input-group input{
+    display: block;
+    width: 100%;
+    padding: .4rem .5rem;
+    font-size: 1.05rem;
+    border: 1px solid #95A0A7;
+    outline: none;
+    border-radius: .2rem !important;
+}
+
+.input-group label{
+    margin-bottom: .3rem;
+}
+
+
+.other-methods{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #95a0a7;
+}
+
+.other-methods::before{
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    background: #95a0a7;
+    content: "";
+    left: 10px;
+    bottom: 9px;
+}
+.other-methods::after{
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    background: #95a0a7;
+    content: "";
+    right: 10px;
+    bottom: 9px;
+}
+
+
+.google-signin .btn{
+    border: 1px solid #95A0A7;
+    width: 100%;
+}
+
+.google-signin .btn:hover{
+    background: #f1f1f1;
+}
+
+.google-icon{
+    font-size: 1.6rem;
+}
+
+.inner-form .highlight{
+    cursor: pointer;
+}

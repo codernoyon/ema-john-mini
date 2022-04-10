@@ -40,4 +40,9 @@
 
 .highlight{
     color: #FF9900;
+    text-decoration: none;
+}
+.highlight:hover{
+    color: #FF9900;
+
 }
