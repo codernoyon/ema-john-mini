@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FcGoogle } from "react-icons/fc";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../Firebase/Firebase.init';
 
@@ -14,7 +14,10 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
-    const navigate = useNavigate()
+
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/';
 
     const handleEmail = event => {
         setEmail(event.target.value)
@@ -27,7 +30,7 @@ const Login = () => {
 
 
     if (user) {
-        navigate("/shop")
+        navigate(from, {replace: true})
     }
 
     const userSignIn = event => {
@@ -52,7 +55,7 @@ const Login = () => {
                         </div>
 
                         <small className='text-danger'>{error?.message.includes("user-not-found") && "User not found"}</small>
-                        
+
                         {
                             loading && <p>Loading...</p>
                         }

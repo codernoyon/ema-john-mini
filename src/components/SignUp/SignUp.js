@@ -65,6 +65,7 @@ const SignUp = () => {
                             <small className='text-danger d-block'>
                                 {error}
                             </small>
+                        
                         </div>
                         <input className='custom-btn mt-4' type="submit" value="Sign Up" />
                         <small className='text-center d-block'>Already have an account? <Link to='/login'  className='highlight'>Login</Link></small>
