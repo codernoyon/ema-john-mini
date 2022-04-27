@@ -8,11 +8,13 @@ import Inventory from './components/Inventory/Inventory';
 import SignUp from './components/SignUp/SignUp';
 import Login from './components/Login/Login';
 import RequireAuth from './components/RequireAuth/RequireAuth';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      <Toaster/>
       <Routes>
         <Route path='/' element={<Shop></Shop>}></Route>
         <Route path='/shop' element={<Shop></Shop>}></Route>
