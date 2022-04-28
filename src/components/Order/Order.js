@@ -5,6 +5,7 @@ import "./Order.css";
 import useProducts from '../../hooks/useProducts';
 import useCart from '../../hooks/useCart';
 import { deleteShoppingCart, removeFromDb } from '../../utilities/fakedb';
+import PageTitle from '../PageTitle/PageTitle';
 
 const Order = () => {
     const [products, ] = useProducts();
@@ -24,6 +25,7 @@ const Order = () => {
 
     return (
         <section className="order-section py-3">
+            <PageTitle title={"Order Review"}></PageTitle>
             <div className="container">
                 <div className="row justify-content-between align-items-center px-2 ">
                     <div className="col-lg-7 order-products ps-1 pe-2 mb-3">

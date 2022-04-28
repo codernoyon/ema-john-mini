@@ -3,6 +3,7 @@ import useCart from '../../hooks/useCart';
 import useProducts from '../../hooks/useProducts';
 import { addToDb, deleteShoppingCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
+import PageTitle from '../PageTitle/PageTitle';
 import Product from '../Product/Product';
 import "./Shop.css";
 
@@ -47,6 +48,7 @@ const Shop = () => {
 
     return (
         <div className="shop">
+            <PageTitle title={"Shop"}></PageTitle>
             <div className="container">
                 <div className="row px-3 px-md-0">
                     <div className="col-lg-9">

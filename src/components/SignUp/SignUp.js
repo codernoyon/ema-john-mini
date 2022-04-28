@@ -6,6 +6,7 @@ import './SignUp.css';
 import auth from '../../Firebase/Firebase.init';
 import SocialLogin from '../SocailLogin/SocialLogin';
 import toast from 'react-hot-toast';
+import PageTitle from '../PageTitle/PageTitle';
 
 const SignUp = () => {
     const [email, setEmail] = useState('');
@@ -52,6 +53,7 @@ const SignUp = () => {
 
     return (
         <section className='signup-section mt-5'>
+            <PageTitle title={"Signup"}></PageTitle>
             <div className="container">
                 <div className='row justify-content-center align-items-center vh-100 px-3 px-md-0'>
                     <div className="inner-form col-md-6 col-lg-4">
