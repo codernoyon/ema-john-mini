@@ -6,3 +6,23 @@
     background: #FFE0B3;
     
 }
+
+
+
+.paginate-btn{
+    padding: .4rem 1.2rem;
+    border: 1px solid #ffb039;
+    background: transparent;
+    margin: 0 5px;
+}
+.paginate-btn:hover{
+    background: #ffb039;
+    color: #fff;
+}
+.selected{
+    background: #ffb039;
+    color: #fff;
+    padding: .4rem 1.2rem;
+    border: 1px solid #ffb039;
+    margin: 0 5px;
+}
